@@ -246,11 +246,16 @@ font-weight: 700;
 }
 .game-cards{
     display: flex;
-    padding-left: 12rem;
-    padding-right: 15rem;
-    gap: 1.5rem;
+    padding-left: 18rem;
+    padding-right:10rem;
+    /* margin-right: 10rem; */
+    gap: 1.8rem;
 }
-.game-cards-caption{
+..game-cards>img{
+    width: 20rem;
+    height: 25rem;
+}
+/* .game-cards-caption{
     display: flex;
     padding-left: 12rem;
     padding-right: 15rem;
@@ -267,4 +272,4 @@ font-weight: 700;
 #img4{
     position: relative;
     left: 12rem;
-}
+} */
