@@ -104,7 +104,7 @@ body {
 .goat {
     display: flex;
     justify-content: space-between;
-    background-color:rgba(241, 68, 174, 0.03) ;
+    background-color: rgba(241, 68, 174, 0.03);
 
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .play-title {
-   padding-top: 10rem;
+    padding-top: 10rem;
     font-size: 3rem;
     font-weight: 600;
     color: rgba(11, 2, 35, 1);
@@ -124,53 +124,57 @@ body {
 }
 
 
-.goat-title{
-font-size: 6rem;;
-font-weight: 800;
-text-transform: uppercase;
-background: linear-gradient( #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-} 
+.goat-title {
+    font-size: 6rem;
+    ;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(#F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-.play-home{
+.play-home {
     padding-right: 15rem;
 }
-.btn-primary{
-    display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-color: rgba(255, 255, 255, 1);
-font-size: 1.3rem;
-border: 0;
-}
 
-.rogue-btn{
+.btn-primary {
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 48px;
-   background-color: rgba(78, 197, 247, 1);
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: rgba(255, 255, 255, 1);
     font-size: 1.3rem;
     border: 0;
 }
-.sign-btn{
-    display: flex;
-    gap:1.5rem;
+
+.rogue-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: rgba(78, 197, 247, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3rem;
+    border: 0;
 }
-.para{
+
+.sign-btn {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.para {
     position: relative;
-    bottom:2rem;
+    bottom: 2rem;
 }
 
 /* gamers section starts from here  */
-.gamers{
+.gamers {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -178,98 +182,164 @@ border: 0;
     height: 37.5rem;
     align-items: center;
 }
-.gamers-img{
+
+.gamers-img {
     padding-left: 15rem;
 
 }
-.gamers-content{
+
+.gamers-content {
     text-align: right;
     padding-right: 15rem;
 }
 
-.gamers-content-title{
+.gamers-content-title {
     text-align: right;
-font-family: Work Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.gamers-content-para{
+.gamers-content-para {
     position: relative;
     bottom: 1.5rem;
 }
-.ellipsis{
+
+.ellipsis {
     text-overflow: ellipsis;
 }
-.unleash{
+
+.unleash {
     color: #534C64;
-font-family: Work Sans;
-font-size: 1.6rem;
-font-style: normal;
-font-weight: 700;
-line-height: 45px;
+    font-family: Work Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
 
 }
 
 
 /* online games sections starts from here */
-.online-game{
+.online-game {
     width: 100%;
     background: #FFF;
 }
-.online-game-title{
+
+.online-game-title {
     color: #0B0223;
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
 }
-.funny-videos{
+
+.funny-videos {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: Work Sans;
-font-size: 3rem;
-font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
 
 }
-.online-game-para{
+
+.online-game-para {
     text-align: center;
     position: relative;
     bottom: 1.5rem;
 }
-.game-cards{
+
+.game-cards {
     display: flex;
-    padding-left: 18rem;
-    padding-right:10rem;
-    /* margin-right: 10rem; */
-    gap: 1.8rem;
+    /* padding: .5rem 15rem; */
+    margin-left: 17rem;
+    gap: 2rem;
+    /* width: 100%; */
+    background: #FFF;
+
 }
-..game-cards>img{
+
+.game-cards>img {
     width: 20rem;
     height: 25rem;
 }
-/* .game-cards-caption{
+
+
+/* horse-container section starts from here  */
+
+.horse-container {
     display: flex;
-    padding-left: 12rem;
-    padding-right: 15rem;
-    gap: 2rem;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    /* width: 100%; */
+    /* justify-content: space-around; */
+    gap: 4rem;
 }
-#img2{
-    position: relative;
-    left: 6.7rem;
+
+.horse-text {
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    margin-left: 13rem;
+    margin-top: 12rem;
+    padding-right: 2rem;
+
 }
-#img3{
-    position: relative;
-    left: 6.5rem;
+
+.play-instant {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-#img4{
+
+
+.horse-text-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.horse-text-para {
+
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 22rem;
+}
+
+.horse-img {
+    padding-left: 4rem;
+}
+
+.talking-badge {
     position: relative;
-    left: 12rem;
-} */
+    bottom: 18rem;
+}
+
+.horse-img-main {
+    margin-left: 10rem;
+}
+
+
+.icon {
+    width:100%;
+    height:27rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    position: relative;
+}
