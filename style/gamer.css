@@ -1,5 +1,7 @@
 body {
-    font-family: Work Sans;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
 
@@ -12,7 +14,7 @@ body {
     width: 100%;
     height: 6rem;
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0rem .25rem 1.87rem 0rem rgba(0, 0, 0, 0.05);
     align-items: center;
 }
 
@@ -20,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
 }
 
 .game-sign {
@@ -43,7 +45,7 @@ body {
 
 .game-about {
     display: flex;
-    margin-right: 20rem;
+    margin-right: 15rem;
 }
 
 .about-us>ul {
@@ -95,4 +97,174 @@ body {
     position: relative;
     bottom: 2px;
     padding-right: .5rem;
+}
+
+/* goat section starts here */
+
+.goat {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(241, 68, 174, 0.03) ;
+
+}
+
+.play {
+    width: 901px;
+    height: 700px;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    padding-left: 15rem;
+}
+
+.play-title {
+   padding-top: 10rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(11, 2, 35, 1);
+    text-transform: uppercase;
+}
+
+
+.goat-title{
+font-size: 6rem;;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient( #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+} 
+
+.play-home{
+    padding-right: 15rem;
+}
+.btn-primary{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: rgba(255, 255, 255, 1);
+font-size: 1.3rem;
+border: 0;
+}
+
+.rogue-btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+   background-color: rgba(78, 197, 247, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3rem;
+    border: 0;
+}
+.sign-btn{
+    display: flex;
+    gap:1.5rem;
+}
+.para{
+    position: relative;
+    bottom:2rem;
+}
+
+/* gamers section starts from here  */
+.gamers{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100%;
+    height: 37.5rem;
+    align-items: center;
+}
+.gamers-img{
+    padding-left: 15rem;
+
+}
+.gamers-content{
+    text-align: right;
+    padding-right: 15rem;
+}
+
+.gamers-content-title{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.gamers-content-para{
+    position: relative;
+    bottom: 1.5rem;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+}
+.unleash{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+
+}
+
+
+/* online games sections starts from here */
+.online-game{
+    width: 100%;
+    background: #FFF;
+}
+.online-game-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.online-game-para{
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+}
+.game-cards{
+    display: flex;
+    padding-left: 12rem;
+    padding-right: 15rem;
+    gap: 1.5rem;
+}
+.game-cards-caption{
+    display: flex;
+    padding-left: 12rem;
+    padding-right: 15rem;
+    gap: 2rem;
+}
+#img2{
+    position: relative;
+    left: 6.7rem;
+}
+#img3{
+    position: relative;
+    left: 6.5rem;
+}
+#img4{
+    position: relative;
+    left: 12rem;
 }
