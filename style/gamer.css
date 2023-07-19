@@ -336,10 +336,134 @@ body {
     margin-left: 10rem;
 }
 
-
+/* 
 .icon {
     width:100%;
     height:27rem;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    position: relative;
+    /* position: relative;
+    bottom: 10rem; */
+    /* margin-bottom: 20rem; */
+
+
+     /*section -4 starat*/
+
+     
+     .icon{
+        width: 100%;
+        height: 427px;
+        flex-shrink: 0;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    }
+     .box{
+        
+        display:flex;
+        gap:5px;
+        width: 300px;
+        height: 80px;
+        
+        
+        
+  }
+     .box:hover{
+             
+      border-radius: 50px ;
+      border:1px solid lightblue;
+      background-color: #FFF;
+      
+     }
+     .container{
+         display:flex;
+         flex-wrap: wrap;
+         gap:20px;
+         padding-top:7rem;
+         padding-left:14rem;
+         
+     }
+     .box>h3{
+         align-items: center;
+     }
+      #b6,#b7,#b8,#b9{
+           position: relative;
+           left:40px;
+      }
+
+/* footer section styles */
+
+.footer{
+    width: 100%;
+    height: 40rem;
+    background: #0B0223;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
 }
+.gameicon{
+    justify-content: center;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+}
+#game-icon-footer{
+    padding-top: 4.8rem;
+}
+.style-g{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.footer-links>ul>li{
+    list-style: none;
+
+display:inline-flex;
+padding-left:5rem;
+gap:.8rem;
+
+
+}
+.footer-links>ul>li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-links{
+    padding-left: 30rem;
+    align-items: center;
+}
+
+
+.social-icons{
+    /* padding-left: 45rem; */
+    margin-left: 46rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.social-icons>ul>li{
+    list-style: none;
+
+display:inline-flex;
+/* padding-left:5rem; */
+gap:2rem;
+}
+
+.conditions{
+    display: flex;
+    /* color: rgba(255, 255, 255, 1); */
+    color: rgba(255, 255, 255, 0.60);
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+
