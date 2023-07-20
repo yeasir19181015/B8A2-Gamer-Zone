@@ -69,9 +69,9 @@ body {
 }
 
 .follow-us {
-    width: 250px;
-    height: 56px;
-    border-radius: 8px;
+    width: 200px;
+    height: 66px;
+    border-radius: 10px;
     background: rgba(11, 2, 35, 0.10);
     text-align: center;
 }
@@ -334,17 +334,9 @@ body {
     margin-left: 10rem;
 }
 
-/* 
-.icon {
-    width:100%;
-    height:27rem;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    /* position: relative;
-    bottom: 10rem; */
-    /* margin-bottom: 20rem; */
 
 
-     /*section -4 starat*/
+   /* icon section starts from here  */
 
      
      .icon{
@@ -494,6 +486,8 @@ gap:2rem;
     }
     .follow-us{
         padding-left: 15rem;
+        width: 150px;
+    height: 56px;
     }
     .goat{
         flex-direction: column-reverse;
@@ -561,25 +555,44 @@ font-size: 1rem;
     padding-right:2rem;
 } 
 .horse-img{
-    padding-left: 1rem;
+    padding-left: 0rem;
 }
 .horse-img-main{margin-left: 4rem;}
 .horse-img-main img{
     width: 300px;
-    height: 400px;
+    height:400px;
 }
 .talking-badge{
-    width: 100px;
-    height: 150px;
+    width: 50px;
+    height: 100px;
 }
 .footer{
     margin-top: 40rem;
 }
-.social-icons{margin-left: 1rem;}
+.social-icons{margin-left: 1rem;
+    width:300px;
+    gap:0.2rem;
+    flex-wrap: wrap;
+    padding-left:1rem;
+}
 .footer-links, .footer-links>ul>li{
     padding-left: 1rem;
 }
 .container{
     padding-left: 3rem;
 }
+.conditions{
+        padding-left: 1rem;
+        align-items: center;
+}
+.web{
+    padding-top: 2rem;
+}
+.gameicon{ padding-top: 1rem;}
+#apple{padding-right: 3rem;}
+#b6,#b7,#b8,#b9{
+    position: relative;
+    left:00px;
+}
+
 }
